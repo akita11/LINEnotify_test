@@ -3,7 +3,7 @@
 
 // ref: https://sample.msr-r.net/m5stack-line-notify/
 
-const char* ssid     = "ifdl";
+const char* ssid     = "XXXXXXXX"; // WiFi SSID
 const char* password = "XXXXXXXX"; // WiFi Password
 const char* host     = "notify-api.line.me";
 const char* token    = "XXXXXXXX"; // published LINE Notify token
