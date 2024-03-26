@@ -6,7 +6,7 @@
 const char* ssid     = "XXXXXXXX"; // WiFi SSID
 const char* password = "XXXXXXXX"; // WiFi Password
 const char* host     = "notify-api.line.me";
-const char* token    = "XXXXXXXX"; // published LINE Notify token
+const char* token    = "XXXX"; // published LINE Notify token
 
 unsigned long displayTime = 0;
 
@@ -48,5 +48,6 @@ void loop() {
   if(M5.BtnA.wasPressed()) {
     String msg = "Button A Pressed";
     line_notify(msg);
+    M5.Display.printf("Notify sent\n");
   }
 }
